@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: ${CONTEXT-PATH:/}
+app:
+  env: ${ENVIRONMENT:local}
+
+logging:
+  level:
+    root: ${LOG_LEVEL:info}
